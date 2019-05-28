@@ -12,17 +12,11 @@ var
   frm, ws,bd: TAutenticacao;
 
 begin
-  //cria os handlers
   frm:= TAutenticacaoForm.Create();
-  ws:= TAutenticacaoWebService.Create();
-  bd:= TAutenticacaoBD.Create();
-
-  //monta a cadeia
   frm.SetSucesssor(ws);
+  ws:= TAutenticacaoWebService.Create();
   ws.SetSucesssor(bd);
- //bd.SetSucesssor(frm);
-
-  //inicia a cadeia
+  bd:= TAutenticacaoBD.Create();
   frm.Autenticar('GUINTER','123456');
   ReadLn;
 

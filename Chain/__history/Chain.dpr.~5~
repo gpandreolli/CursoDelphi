@@ -20,7 +20,6 @@ begin
   //monta a cadeia
   frm.SetSucesssor(ws);
   ws.SetSucesssor(bd);
- //bd.SetSucesssor(frm);
 
   //inicia a cadeia
   frm.Autenticar('GUINTER','123456');

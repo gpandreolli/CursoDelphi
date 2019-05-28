@@ -1,0 +1,15 @@
+unit uFramework;
+
+interface
+
+type
+  TConexao = class
+  strict private
+    class var FInstance: TConexao;
+  public
+    class function GetInstance(): TConexao;
+  end;
+
+implementation
+
+end.

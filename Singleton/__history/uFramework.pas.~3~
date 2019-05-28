@@ -1,0 +1,13 @@
+unit uFramework;
+
+interface
+
+type
+  TConexao = class
+  strict private
+    class var FInstance: TConexao;
+  end;
+
+implementation
+
+end.
