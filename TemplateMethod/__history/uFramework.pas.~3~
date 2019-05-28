@@ -1,0 +1,32 @@
+unit uFramework;
+
+interface
+
+type
+  TCorrecaoProva = class
+    procedure Ler();
+    procedure Corrigir();
+    procedure EnviarBD();
+  end;
+
+implementation
+
+{ TCorrecaoProva }
+
+procedure TCorrecaoProva.Corrigir;
+begin
+  WriteLn('Corrigindo Prova');
+end;
+
+procedure TCorrecaoProva.EnviarBD;
+begin
+WriteLn('Enviando respostas das provas para o BD');
+
+end;
+
+procedure TCorrecaoProva.Ler;
+begin
+  WriteLn('Lendo Arquivo TXT');
+end;
+
+end.
