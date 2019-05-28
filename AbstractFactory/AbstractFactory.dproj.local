@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/28 15:48:00.014,C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\AbstractFactory.dproj=C:\Users\gpa\Documents\Embarcadero\Project1.dproj</Transaction>
+    <Transaction>2019/05/28 15:48:09.695,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 15:48:21.608,C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\uFramework.pas=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 16:24:06.383,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\ModelSupport_AbstractFactory\default.txaPackage</Transaction>
+    <Transaction>2019/05/28 16:24:08.023,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\ModelSupport_AbstractFactory\default.txvpck</Transaction>
+    <Transaction>2019/05/28 16:24:09.289,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\ModelSupport_AbstractFactory\uFramework\default.txvpck</Transaction>
+    <Transaction>2019/05/28 16:24:09.351,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\ModelSupport_AbstractFactory\AbstractFactory\default.txvpck</Transaction>
+    <Transaction>2019/05/28 16:24:09.929,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\AbstractFactory\ModelSupport_AbstractFactory\uFramework\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>

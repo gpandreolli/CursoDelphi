@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="odjvn7zjf5r_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,320,87,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TConnection.Open()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TDBFactory">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="40,20,200,99" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TDBFactory.CreateConnection()" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TDBFactory.CreateQuery()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TDBXFactory">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-40,160,200,99" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TDBXFactory.CreateConnection()" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TDBXFactory.CreateQuery()" />
+      <reference referencedUin="delphi:l_gnt:src:AbstractFactory:uFramework.TDBXFactory:uFramework.TDBFactory">
+        <property name="sourceAnchor" value="100,160" />
+        <property name="targetAnchor" value="100,119" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TADOFactory">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="180,160,200,99" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TADOFactory.CreateConnection()" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TADOFactory.CreateQuery()" />
+      <reference referencedUin="delphi:l_gnt:src:AbstractFactory:uFramework.TADOFactory:uFramework.TDBFactory">
+        <property name="sourceAnchor" value="210,160" />
+        <property name="targetAnchor" value="210,119" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,80,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TQuery.Exec(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TADOConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="600,420,115,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TADOConnection.Open()" />
+      <reference referencedUin="delphi:l_gnt:src:AbstractFactory:uFramework.TADOConnection:uFramework.TConnection">
+        <property name="sourceAnchor" value="609,420" />
+        <property name="targetAnchor" value="586,400" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TADOQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,220,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TADOQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:AbstractFactory:uFramework.TADOQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="472,220" />
+        <property name="targetAnchor" value="512,164" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TDBXQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="600,200,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TDBXQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:AbstractFactory:uFramework.TDBXQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="607,200" />
+        <property name="targetAnchor" value="578,164" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:AbstractFactory:uFramework.TDBXConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="380,420,114,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:AbstractFactory:uFramework.TDBXConnection.Open()" />
+      <reference referencedUin="delphi:l_gnt:src:AbstractFactory:uFramework.TDBXConnection:uFramework.TConnection">
+        <property name="sourceAnchor" value="480,420" />
+        <property name="targetAnchor" value="500,401" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>
