@@ -1,0 +1,15 @@
+unit uHelpers;
+
+interface
+
+uses
+  DB;
+
+type
+  TDataSetHelper = class helper for TDataset
+
+  end;
+
+implementation
+
+end.

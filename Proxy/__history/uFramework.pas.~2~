@@ -1,0 +1,12 @@
+unit uFramework;
+
+interface
+
+type
+  TDBXQuery = class
+    procedure Exec(ASQL: string);
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/28 08:24:53.584,=C:\Users\gpa\Documents\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 08:26:39.584,C:\Users\gpa\Documents\Embarcadero\Interfaces\uFrmPrincipal.dfm=C:\Users\gpa\Documents\Embarcadero\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 08:26:39.584,C:\Users\gpa\Documents\Embarcadero\Interfaces\uFrmPrincipal.pas=C:\Users\gpa\Documents\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 08:26:53.608,C:\Users\gpa\Documents\Embarcadero\Interfaces\Interfaces.dproj=C:\Users\gpa\Documents\Embarcadero\Project1.dproj</Transaction>
+    <Transaction>2019/05/28 08:31:43.755,=C:\Users\gpa\Documents\Embarcadero\Interfaces\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 08:32:01.997,C:\Users\gpa\Documents\Embarcadero\Interfaces\uCalculo.pas=C:\Users\gpa\Documents\Embarcadero\Interfaces\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 08:40:32.681,=C:\Users\gpa\Documents\Embarcadero\Interfaces\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 08:40:43.391,C:\Users\gpa\Documents\Embarcadero\Interfaces\uLog.pas=C:\Users\gpa\Documents\Embarcadero\Interfaces\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

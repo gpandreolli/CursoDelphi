@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/27 11:23:23.000.554,=C:\Users\gpa\Documents\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2019/05/27 11:24:13.000.631,C:\Users\gpa\Documents\Embarcadero\Unit1.pas=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\uFrmPrincipal.pas</Transaction>
+    <Transaction>2019/05/27 11:24:13.000.631,C:\Users\gpa\Documents\Embarcadero\Unit1.dfm=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2019/05/27 11:24:36.000.928,C:\Users\gpa\Documents\Embarcadero\Project1.dproj=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\SistemaBancario.dproj</Transaction>
+    <Transaction>2019/05/27 11:40:27.000.496,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\Unit1.pas</Transaction>
+    <Transaction>2019/05/27 11:40:56.000.135,C:\Users\gpa\Documents\Embarcadero\SistemaBancario\Unit1.pas=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\uFramework.pas</Transaction>
+    <Transaction>2019/05/27 14:11:12.000.136,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\Unit1.pas</Transaction>
+    <Transaction>2019/05/27 17:24:16.000.599,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\ModelSupport_SistemaBancario\SistemaBancario\default.txvpck</Transaction>
+    <Transaction>2019/05/27 17:24:16.000.490,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\ModelSupport_SistemaBancario\SistemaBancario\default.txaPackage</Transaction>
+    <Transaction>2019/05/27 17:24:16.000.490,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\ModelSupport_SistemaBancario\default.txaPackage</Transaction>
+    <Transaction>2019/05/27 17:24:26.000.413,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\ModelSupport_SistemaBancario\default.txvpck</Transaction>
+    <Transaction>2019/05/27 17:24:32.000.678,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\ModelSupport_SistemaBancario\uFramework\default.txvpck</Transaction>
+    <Transaction>2019/05/27 17:24:35.000.006,=C:\Users\gpa\Documents\Embarcadero\SistemaBancario\ModelSupport_SistemaBancario\uFrmPrincipal\default.txvpck</Transaction>
+  </Transactions>
+</BorlandProject>

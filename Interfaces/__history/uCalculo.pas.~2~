@@ -1,0 +1,14 @@
+unit uCalculo;
+
+interface
+
+type
+  TCalculo = class
+    procedure Iniciar();
+    procedure Processar();
+    procedure Finalizar();
+  end;
+
+implementation
+
+end.

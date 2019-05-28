@@ -1,0 +1,12 @@
+unit uLog;
+
+interface
+
+type
+  ILog = interface
+
+  end;
+
+implementation
+
+end.

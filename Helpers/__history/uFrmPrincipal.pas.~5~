@@ -1,0 +1,35 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Datasnap.DBClient;
+
+type
+  TFrmPrincipal = class(TForm)
+    ClientDataSet1: TClientDataSet;
+    ClientDataSet2: TClientDataSet;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses uHelpers;
+
+procedure TFrmPrincipal.Button1Click(Sender: TObject);
+begin
+  ClientDataSet1.SaveToTXT('dados.txt');
+end;
+
+end.

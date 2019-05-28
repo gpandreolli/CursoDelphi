@@ -1,0 +1,20 @@
+program Proxy;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uFramework in 'uFramework.pas';
+
+var
+  qry1,qry2: TDBXQuery;
+
+begin
+  qry1:= TDBXQuery.Create();
+  qry1.Exec('Select * from CLIENTES');
+  qry2:= TDBXQuery.Create();
+  qry2.Exec('select * from PRODUTOS');
+  Readln;
+end.

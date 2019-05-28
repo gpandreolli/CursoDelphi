@@ -1,0 +1,43 @@
+unit uCalculo;
+
+interface
+
+uses
+  uLog;
+
+type
+  TCalculo = class
+  strict private
+    FLog: ILog;
+  public
+    procedure Iniciar();
+    procedure Processar();
+    procedure Finalizar();
+    constructor Create(ALog: ILog);
+  end;
+
+implementation
+
+{ TCalculo }
+
+constructor TCalculo.Create(ALog: ILog);
+begin
+  FLog:= ALog;
+end;
+
+procedure TCalculo.Finalizar;
+begin
+
+end;
+
+procedure TCalculo.Iniciar;
+begin
+
+end;
+
+procedure TCalculo.Processar;
+begin
+
+end;
+
+end.

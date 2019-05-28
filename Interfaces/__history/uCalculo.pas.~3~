@@ -1,0 +1,31 @@
+unit uCalculo;
+
+interface
+
+type
+  TCalculo = class
+    procedure Iniciar();
+    procedure Processar();
+    procedure Finalizar();
+  end;
+
+implementation
+
+{ TCalculo }
+
+procedure TCalculo.Finalizar;
+begin
+
+end;
+
+procedure TCalculo.Iniciar;
+begin
+
+end;
+
+procedure TCalculo.Processar;
+begin
+
+end;
+
+end.

@@ -1,0 +1,19 @@
+unit uFramework;
+
+interface
+
+type
+  TDBXQuery = class
+    procedure Exec(ASQL: string);
+  end;
+
+implementation
+
+{ TDBXQuery }
+
+procedure TDBXQuery.Exec(ASQL: string);
+begin
+  WriteLn('Executando SQL no DBX: ' + ASQL);
+end;
+
+end.

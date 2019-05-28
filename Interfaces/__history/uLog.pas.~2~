@@ -1,0 +1,10 @@
+unit uLog;
+
+interface
+
+type
+  I;
+
+implementation
+
+end.

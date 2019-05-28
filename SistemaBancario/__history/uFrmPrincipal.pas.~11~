@@ -1,0 +1,62 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,uFramework;
+
+type
+  TFrmPrincipal = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    edtCodigo: TEdit;
+    edtValor: TEdit;
+    edtNome: TEdit;
+    btnAbrirConta: TButton;
+    btnSacar: TButton;
+    btnDepositar: TButton;
+    btnSaldo: TButton;
+    procedure btnAbrirContaClick(Sender: TObject);
+    procedure btnSacarClick(Sender: TObject);
+    procedure btnDepositarClick(Sender: TObject);
+  private
+    Cliente: TCliente;
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmPrincipal.btnAbrirContaClick(Sender: TObject);
+begin
+     Cliente := TCliente.Create();
+     Cliente.Codigo:= edtCodigo.Text;
+     Cliente.Nome:= edtNome.Text;
+     Cliente.Conta:= TConta.Create();
+end;
+
+procedure TFrmPrincipal.btnDepositarClick(Sender: TObject);
+var
+  LValor: double;
+begin
+  LValor:= StrToFloat(edtValor.Text);
+  Cliente.Conta.Depositar(LValor);
+end;
+
+procedure TFrmPrincipal.btnSacarClick(Sender: TObject);
+var
+  LValor: double;
+begin
+  LValor:= StrToFloat(edtValor.Text);
+  Cliente.Conta.Sacar(LValor);
+end;
+
+end.
