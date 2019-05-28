@@ -1,4 +1,4 @@
-program Proxy;
+program Adapter;
 
 {$APPTYPE CONSOLE}
 
@@ -12,9 +12,9 @@ var
   qry1,qry2: TQuery;
 
 begin
-  qry1:= TProxyQuery.Create();
+  qry1:= TAdapterQuery.Create();
   qry1.Exec('Select * from CLIENTES');
-  qry2:= TProxyQuery.Create();
+  qry2:= TAdapterQuery.Create();
   qry2.Exec('select * from PRODUTOS');
   Readln;
 end.

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ag9ratt30vt_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TFDQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,220,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TFDQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Proxy:uFramework.TFDQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="84,220" />
+        <property name="targetAnchor" value="142,104" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TProxyQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,220,103,101" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Proxy:uFramework.TProxyQuery.Fquery" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TProxyQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Proxy:uFramework.TProxyQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="340,223" />
+        <property name="targetAnchor" value="205,100" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Proxy:uFramework.TProxyQuery.Fquery">
+        <property name="sourceAnchor" value="340,227" />
+        <property name="targetAnchor" value="205,101" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="120,20,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TQuery.Exec(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TDBXQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,220,86,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TDBXQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Proxy:uFramework.TDBXQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="183,220" />
+        <property name="targetAnchor" value="183,104" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

@@ -3,20 +3,17 @@ unit uFramework;
 interface
 
 type
-  //subject
   TQuery = class abstract
     procedure Exec(ASQL: string);virtual;abstract;
   end;
-   //real subject
+
   TDBXQuery = class (TQuery)
     procedure Exec(ASQL: string); override;
   end;
-  //real subject
   TFDQuery = class (TQuery)
     procedure Exec(ASQL: string); override;
   end;
 
-  //proxy
   TProxyQuery = class(TQuery)
   strict private
     Fquery: TQuery;
@@ -46,7 +43,7 @@ procedure TProxyQuery.Exec(ASQL: string);
 begin
   //delegação polimórfica de caixa preta
   if FQuery = nil then
-    FQuery:= TFDQuery.Create();
+    FQuery:= TDBXQuery.Create();
 
   FQuery.Exec(ASQL);
 end;

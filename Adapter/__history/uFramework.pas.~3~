@@ -15,6 +15,9 @@ type
   TFDQuery = class (TQuery)
     procedure Exec(ASQL: string); override;
   end;
+  TRESTQuery = class
+    procedure Execut(ACommand: string; AAsync: boolean);
+  end;
 
   //proxy
   TProxyQuery = class(TQuery)
@@ -49,6 +52,13 @@ begin
     FQuery:= TFDQuery.Create();
 
   FQuery.Exec(ASQL);
+end;
+
+{ TRESTQuery }
+
+procedure TRESTQuery.Execut(ACommand: string; AAsync: boolean);
+begin
+  Writeln('Executando sql no REST'+ ACommand);
 end;
 
 end.

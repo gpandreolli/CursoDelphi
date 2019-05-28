@@ -15,6 +15,9 @@ type
   TFDQuery = class (TQuery)
     procedure Exec(ASQL: string); override;
   end;
+  TRESTQuery = class
+    procedure Execut(ACommand: string; AAsync: boolean);
+  end;
 
   //proxy
   TProxyQuery = class(TQuery)

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="slsj1d9c0dr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TDBXQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,86,84" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TDBXQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TDBXQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="95,51" />
+        <property name="targetAnchor" value="97,154" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TAdapterQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="115,1,139,101" />
+      <reference referencedUin="delphi:e_field:src:Adapter:uFramework.TAdapterQuery.FQuery" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TAdapterQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TAdapterQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="148,102" />
+        <property name="targetAnchor" value="148,113" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Adapter:uFramework.TAdapterQuery.FQuery">
+        <property name="sourceAnchor" value="254,43" />
+        <property name="targetAnchor" value="292,42" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="96,113,86,84" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TQuery.Exec(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TRESTQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="292,1,91,84" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TRESTQuery.Execute(System.string,System.Boolean)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TProxyQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="292,104,103,101" />
+      <reference referencedUin="delphi:e_field:src:Adapter:uFramework.TProxyQuery.Fquery" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TProxyQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TProxyQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="292,154" />
+        <property name="targetAnchor" value="182,154" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Adapter:uFramework.TProxyQuery.Fquery">
+        <property name="sourceAnchor" value="292,146" />
+        <property name="targetAnchor" value="182,146" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TFDQuery">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="292,224,86,84" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TFDQuery.Exec(System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TFDQuery:uFramework.TQuery">
+        <property name="sourceAnchor" value="292,241" />
+        <property name="targetAnchor" value="182,178" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

@@ -4,5 +4,10 @@
     <Transaction>2019/05/28 10:12:07.753,C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\Proxy.dproj=C:\Users\gpa\Documents\Embarcadero\Project1.dproj</Transaction>
     <Transaction>2019/05/28 10:12:41.177,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\Unit1.pas</Transaction>
     <Transaction>2019/05/28 10:13:02.459,C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\uFramework.pas=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 11:27:49.534,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\ModelSupport_Proxy\default.txaPackage</Transaction>
+    <Transaction>2019/05/28 11:27:59.777,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\ModelSupport_Proxy\default.txvpck</Transaction>
+    <Transaction>2019/05/28 11:28:02.839,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\ModelSupport_Proxy\uFramework\default.txvpck</Transaction>
+    <Transaction>2019/05/28 11:28:02.933,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\ModelSupport_Proxy\Proxy\default.txvpck</Transaction>
+    <Transaction>2019/05/28 11:28:03.636,=C:\Users\gpa\Documents\Embarcadero\CursoDelphi\Proxy\ModelSupport_Proxy\uFramework\default.txaPackage</Transaction>
   </Transactions>
 </BorlandProject>

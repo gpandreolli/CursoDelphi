@@ -14,7 +14,7 @@ var
 begin
   qry1:= TProxyQuery.Create();
   qry1.Exec('Select * from CLIENTES');
-  qry2:= TProxyQuery.Create();
+  qry2:= TDBXQuery.Create();
   qry2.Exec('select * from PRODUTOS');
   Readln;
 end.
