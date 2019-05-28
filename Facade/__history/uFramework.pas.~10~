@@ -1,0 +1,60 @@
+unit uFramework;
+
+interface
+
+type
+  TSQLHelper = class
+   type
+    TIsolationLevel = (ReadCommited, Serial);
+
+    TTransaction = class
+      procedure Start();
+      procedure Commit();
+      procedure Rollback();
+    end;
+
+    TSQL = class
+      CommandText: string;
+    end;
+
+    TConnection = class
+      procedure Open(Trans: TTransaction);
+    end;
+
+  TQuery = class abstract
+    procedure Exec(SQL: TSQL; Con: TConnection);
+  end;
+
+  TSQLQuery = class(TQuery)
+    procedure Exec(SQL: TSQL; Con: TConnection);
+  end;
+
+end;
+
+implementation
+
+{ TTransaction }
+
+procedure TSQLHelper.TTransaction.Commit;
+begin
+
+end;
+
+procedure TSQLHelper.TTransaction.Rollback;
+begin
+
+end;
+
+procedure TSQLHelper.TTransaction.Start;
+begin
+
+end;
+
+{ TSQLQuery }
+
+procedure TSQLHelper.TSQLQuery.Exec(SQL: TSQL; Con: TConnection);
+begin
+  Writeln('excecutando' + SQL.CommandText );
+end;
+
+end.

@@ -1,0 +1,37 @@
+unit uFramework;
+
+interface
+
+type
+  //Strategy
+  TAutenticacao = class
+    procedure Autenticar(AUsuario, ASenha: string); virtual; abstract;
+  end;
+
+  //Concrete Strategy
+  TAutenticacaoBD = class(TAutenticacao)
+    procedure Autenticar(AUsuario, ASenha: string); override;
+  end;
+
+   //Concrete Strategy
+  TAutenticacaoWebService = class(TAutenticacao)
+    procedure Autenticar(AUsuario, ASenha: string); override;
+  end;
+
+implementation
+
+{ TAutenticacaoBD }
+
+procedure TAutenticacaoBD.Autenticar(AUsuario, ASenha: string);
+begin
+  Writeln('Usuario autenticado no BD');
+end;
+
+{ TAutenticacaoWebService }
+
+procedure TAutenticacaoWebService.Autenticar(AUsuario, ASenha: string);
+begin
+   Writeln('Usuario autenticado no WebSerivce');
+end;
+
+end.

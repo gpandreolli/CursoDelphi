@@ -1,0 +1,19 @@
+unit uFramework;
+
+interface
+
+type
+  TTransaction = class
+    procedure Start();
+    procedure Commit();
+    procedure Rollback();
+  end;
+
+  TConnection = class
+     procedure Open();
+
+  end;
+
+implementation
+
+end.

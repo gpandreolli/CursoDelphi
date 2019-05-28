@@ -1,0 +1,30 @@
+program Facade;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uFramework in 'uFramework.pas';
+
+var
+  con: TConnection;
+  qry: TSQLQuery;
+  il: TIsolationLevel;
+  SQL: TSQL;
+  CommandText: string;
+  trans: TTransaction;
+
+begin
+  qry:= TSQLQuery.Create();
+  SQL:= TSQL.Create();
+  con:= TConnection.Create();
+  il:= ReadCommited;
+  trans:= Transaction.Create(il)
+  con.Open(trans);
+  qry.Exec(SQL,con);
+  ReadLn;
+
+
+end.

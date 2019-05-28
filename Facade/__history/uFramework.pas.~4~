@@ -1,0 +1,27 @@
+unit uFramework;
+
+interface
+
+type
+  TTransaction = class
+    procedure Start();
+    procedure Commit();
+    procedure Rollback();
+  end;
+
+  TSQL = class
+    CommandText: string;
+  end;
+
+  TConnection = class
+     procedure Open();
+
+  end;
+
+  TQuery = class abstract
+    procedure Exec(SQL: TSQL;Con: TConnection);
+  end;
+
+implementation
+
+end.
