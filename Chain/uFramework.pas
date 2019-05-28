@@ -35,6 +35,8 @@ implementation
 procedure TAutenticacaoBD.Autenticar(AUsuario, ASenha: string);
 begin
   Writeln('Usuario autenticado no BD');
+  if FAutenticacao <> nil then
+    FAutenticacao.Autenticar(AUsuario, ASenha);
 end;
 
 
@@ -42,6 +44,8 @@ end;
 procedure TAutenticacaoWebService.Autenticar(AUsuario, ASenha: string);
 begin
    Writeln('Usuario autenticado no WebSerivce');
+   if FAutenticacao <> nil then
+      FAutenticacao.Autenticar(AUsuario, ASenha);
 end;
 
 
@@ -49,7 +53,9 @@ end;
 { TAutenticacaoForm }
 procedure TAutenticacaoForm.Autenticar(AUsuario, ASenha: string);
 begin
-  WriteLn('Usuario autenticado no formulario de Login')
+  WriteLn('Usuario autenticado no formulario de Login');
+  if FAutenticacao <> nil then
+      FAutenticacao.Autenticar(AUsuario, ASenha);
 
 end;
 
